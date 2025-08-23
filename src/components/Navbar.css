@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 20px 0;
+  background: transparent;
+  flex-wrap: wrap;
+  margin: 0 400px;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color:  #8D493A;
+  letter-spacing: 0.1em;
+  position: relative;
+  padding-bottom: 4px;
+  font-family: 'EB Garamond';
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: currentColor;
+  transition: width 0.2s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  .navbar {
+    margin: 0;          
+    padding: 0 50px;
+    gap: 0.5rem;
+    justify-content: space-around;
+    white-space: nowrap;
+  }
+
+  /* hide scroll bar on mobile while keeping scrollability */
+  .navbar::-webkit-scrollbar { display: none; }
+  .navbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  .nav-link {
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    padding: 10px 8px;     /* bigger tap target */
+    line-height: 1;
+  }
+
+}

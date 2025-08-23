@@ -1,0 +1,74 @@
+{
+  "header": {
+    "title": "Alexandra & Jugin",
+    "rsvp": "RSVP",
+    "country": "Italy"
+  },
+  "nav": {
+    "home": "Home",
+    "ourDay": "Our Day",
+    "travel": "Location",
+    "gifts": "Gifts",
+    "qa": "Q&A",
+    "rsvp": "RSVP"
+  },
+  "home": {
+    "title": "Welcome to our Wedding"
+  },
+  "ourday": {
+    "title": "We can’t wait to welcome you<br/>to our celebration",
+    "p1": "The evening begins at 5:30 PM, as guests arrive and settle in. Shortly after, at 6:00 PM, we’ll gather for the civil ceremony, a moment we’ve been looking forward to and are so happy to share with you.",
+    "p2": "Please note: seating for the ceremony is limited, so you may be standing, but we promise, the joy in the air will make it all worthwhile.",
+    "p3": "After we say “I do,” the celebration begins! At 7:00 PM, join us for an aperitivo: drinks, small bites, and time to mingle, toast, and soak in the moment.",
+    "p4": "Then comes dinner, dancing, and the kind of night we hope you’ll never forget. Expect laughter, music, good food, and of course… cake."
+  },
+  "travel": {
+    "locationTitle": "Our Wedding Location",
+    "locationP1": "Nestled in the hills above the Adriatic coast, Borgo Fonte Scura in Silvi is a charming historic residence surrounded by olive trees and sweeping sea views.",
+    "locationP2": "Its timeless atmosphere and natural beauty make it the perfect place for us to celebrate this special moment with the people we love most.",
+    "infoTitle": "Travel Information",
+    "infoP1": "For those joining us from afar, the closest airport is Pescara Airport (PSR), or you can reach us by train via Pescara Centrale station.",
+    "infoP2": "For our guests coming from abroad, we will be organising transportation from your arrival to your departure, so you can relax and enjoy the celebration with us!"
+  },
+  "gifts": {
+    "title": "Gifts Guide",
+    "p1": "We are deeply grateful for your presence at our wedding, it is truly the most meaningful gift.",
+    "p2": "As we live in London and are celebrating in Italy, transporting physical gifts would be a challenge.",
+    "p3": "If you would like to offer us a gift, we would be so thankful for a contribution to our first home fund.",
+    "accountHolder": "ACCOUNT HOLDER:",
+    "iban": "IBAN:",
+    "bic": "BIC/SWIFT:",
+    "description": "DESCRIPTION:"
+  },
+  "qa": {
+    "q1": { "title": "By when do I need to confirm my attendance?", "body": "Please confirm your attendance via the RSVP form by August 1, 2026." },
+    "q2": { "title": "When do I have to arrive in Pescara?", "body": "If you’re coming from abroad, please arrive on Friday the 4th of September to avoid any issues." },
+    "q3": { "title": "What's the dress code?", "body": "We kindly ask our guests to dress in formal wear to match the tone of our celebration. For the ladies: we’d appreciate if you could avoid wearing white, black, or red. Feel free to take inspiration from the pastel colours of our invitation." },
+    "q4": { "title": "Will there be options for dietary requirements?", "body": "Yes, please let us know in the RSVP form, and we’ll do our best to accommodate your preferences or needs." },
+    "q5": { "title": "Are children invited?", "body": "Yes. Please let us know if you’ll be bringing your kids and include their ages as of the wedding day in the RSVP form." },
+    "q6": { "title": "Is there a gift registry?", "body": "Please refer to the \"Gifts\" section for more information." },
+    "q7": { "title": "Who can I contact if I have questions before the wedding?", "body": "You can personally contact us, we’ll be more than happy to help." }
+  },
+  "rsvp": {
+    "title": "RSVP",
+    "attendanceQuestion": "Will you be attending?",
+    "yesCantWait": "Yes, can’t wait!",
+    "noCantMakeIt": "Sadly, can’t make it.",
+    "guestCountQuestion": "How many guests (including yourself)?",
+    "select": "Select...",
+    "guestName": "Guest {{index}} – Name:",
+    "dietQuestion": "Do you have any dietary restrictions or allergies?",
+    "no": "No",
+    "yes": "Yes",
+    "dietSpecify": "Please specify:",
+    "songPrompt": "Got a song that’ll get you on the dance floor?",
+    "optional": "Optional",
+    "notesPrompt": "Anything else we should know?",
+    "emailOptional": "Your email (optional, for updates):",
+    "notAttendingNamePrompt": "Please enter your name so we can mark you as unable to attend:",
+    "submit": "Confirm",
+    "thankYouAttending": "Thank you! We can't wait to celebrate with you!",
+    "thankYouNotAttending": "Thank you for confirming."
+  }
+}
+

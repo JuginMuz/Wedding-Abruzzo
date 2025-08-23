@@ -1,0 +1,78 @@
+.wedding-footer {
+  text-align: center;  
+  padding: 40px 0px 360px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/Bottom.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  max-width: 100%;
+}
+
+.footer-heading {
+  font-size: 3.5rem;
+  letter-spacing: 0.1em;
+  margin: 0;
+  font-family: 'Cinzel Decorative';
+}
+
+.footer-line {
+  width: 200px;
+  border: 1px solid  #8D493A;
+  margin: 10px auto;
+}
+
+.footer-date {
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  margin: 10px 0 30px 0;
+  
+}
+
+.footer-credit {
+  font-size: 0.9rem;
+  margin-top: 60px; 
+}
+
+
+
+
+@media (max-width: 480px) {
+  .wedding-footer {
+    background-size:cover;
+    padding: 0 10px 50px 0;
+  }
+
+  .footer-heading {
+    font-size: 2rem;           /* reduce title size */
+    margin-bottom: 3px;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.3rem;
+    padding: 0;
+    justify-self: center;
+  }
+
+  .footer-line {
+    width: 100px;
+    border: 1px solid  #8D493A;
+    margin: 3px auto;
+  }
+
+  .footer-date {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin: 3px 0;
+  }
+
+  .footer-credit {
+    font-size: 0.9rem;
+    margin-top: 10px; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  
+ 
+}

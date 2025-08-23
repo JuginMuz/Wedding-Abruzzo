@@ -1,0 +1,73 @@
+{
+  "header": {
+    "title": "Alexandra & Jugin",
+    "rsvp": "RSVP",
+    "country": "Italia"
+  },
+  "nav": {
+    "home": "Home",
+    "ourDay": "Il giorno",
+    "travel": "Location",
+    "gifts": "Regali",
+    "qa": "Domande",
+    "rsvp": "RSVP"
+  },
+  "home": {
+    "title": "Benvenuti al nostro matrimonio"
+  },
+  "ourday": {
+    "title": "Non vediamo l’ora di accogliervi<br/>alla nostra festa",
+    "p1": "La serata inizierà alle 17:30, con l’arrivo degli ospiti e un momento per accomodarsi. Poco dopo, alle 18:00, ci riuniremo per la cerimonia civile, un momento che abbiamo atteso con gioia e che siamo felicissimi di condividere con voi.",
+    "p2": "Nota bene: i posti a sedere per la cerimonia sono limitati, quindi potreste restare in piedi, ma vi assicuriamo che l’emozione nell’aria ripagherà ampiamente.",
+    "p3": "Dopo il nostro “Sì, lo voglio”, inizierà la festa! Alle 19:00, vi aspettiamo per l’aperitivo: drink, stuzzichini e tempo per brindare, chiacchierare e assaporare il momento.",
+    "p4": "Poi seguiranno la cena, i balli e una notte che speriamo non dimenticherete mai. Aspettatevi risate, musica, buon cibo e, naturalmente… la torta."
+  },
+  "travel": {
+    "locationTitle": "La Nostra Location",
+    "locationP1": " Immerso tra le colline che guardano il mare Adriatico, Borgo Fonte Scura a Silvi è un’antica dimora ricca di fascino, circondata da ulivi e da una vista mozzafiato.",
+    "locationP2": "La sua atmosfera senza tempo e la bellezza del paesaggio lo rendono il luogo perfetto per festeggiare questo momento speciale insieme alle persone che amiamo.",
+    "infoTitle": "Informazioni di Viaggio",
+    "infoP1": "Per chi arriva da lontano, l’aeroporto più vicino è Pescara (PSR), oppure è possibile raggiungerci in treno tramite la stazione di Pescara Centrale.",
+    "infoP2": "Per i nostri ospiti che arrivano dall’estero, ci occuperemo noi dei trasporti dal momento dell’arrivo fino alla partenza, così potrete rilassarvi e godervi la festa insieme a noi!"
+  },
+  "gifts": {
+    "title": "Guida ai Regali",
+    "p1": "Siamo profondamente grati per la vostra presenza al nostro matrimonio, è davvero il dono più significativo.",
+    "p2": "Vivendo a Londra e festeggiando in Italia, sarebbe difficile trasportare regali materiali.",
+    "p3": "Se desiderate farci un dono, vi saremmo molto grati per un contributo al fondo per la nostra prima casa.",
+    "accountHolder": "INTESTATARIO:",
+    "iban": "IBAN:",
+    "bic": "BIC/SWIFT:",
+    "description": "CAUSALE:"
+  },
+  "qa": {
+    "q1": { "title": "Entro quando devo confermare la presenza?", "body": "Vi preghiamo di confermare la vostra presenza tramite il modulo di RSVP entro il 1° agosto 2026." },
+    "q2": { "title": "Quando devo arrivare a Pescara?", "body": "Se arrivate da fuori Pescara, vi consigliamo di arrivare venerdì 4 settembre per evitare qualsiasi inconveniente." },
+    "q3": { "title": "Qual è il dress code?", "body": "Invitiamo gentilmente i nostri ospiti a vestirsi in abito formale, per essere in armonia con l’atmosfera della nostra celebrazione. Per le signore, chiediamo cortesemente di evitare il bianco, il nero e il rosso. Potrete prendere ispirazione dalle delicate tonalità pastello presenti nel nostro invito." },
+    "q4": { "title": "Ci saranno opzioni per esigenze alimentari?", "body": "Sì, fatecelo sapere nel modulo di RSVP: faremo il possibile per accogliere al meglio le vostre preferenze o necessità." },
+    "q5": { "title": "I bambini sono invitati?", "body": "Sì. Vi preghiamo di farci sapere se porterete i vostri figli e di indicare, nel modulo di RSVP, la loro età alla data del matrimonio." },
+    "q6": { "title": "C’è una lista nozze?", "body": "Per maggiori informazioni, vi invitiamo a consultare la sezione “Regali”." },
+    "q7": { "title": "Chi posso contattare per domande prima del matrimonio?", "body": "Potete contattare direttamente noi, saremo felicissimi di aiutarvi." }
+  },
+  "rsvp": {
+    "title": "RSVP",
+    "attendanceQuestion": "Parteciperai?",
+    "yesCantWait": "Sì, non vedo l’ora!",
+    "noCantMakeIt": "Purtroppo non posso.",
+    "guestCountQuestion": "Quanti ospiti (incluso te)?",
+    "select": "Seleziona...",
+    "guestName": "Ospite {{index}} – Nome:",
+    "dietQuestion": "Hai esigenze alimentari o allergie?",
+    "no": "No",
+    "yes": "Sì",
+    "dietSpecify": "Per favore specifica:",
+    "songPrompt": "Hai una canzone che ti farà scatenare in pista?",
+    "optional": "Opzionale",
+    "notesPrompt": "C’è altro che dovremmo sapere?",
+    "emailOptional": "La tua email (opzionale, per aggiornamenti):",
+    "notAttendingNamePrompt": "Inserisci il tuo nome così potremo segnarti come non presente:",
+    "submit": "Conferma",
+    "thankYouAttending": "Grazie! Non vediamo l’ora di festeggiare con te!",
+    "thankYouNotAttending": "Grazie per la conferma."
+  }
+}
