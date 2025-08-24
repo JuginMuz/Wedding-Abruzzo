@@ -40,13 +40,11 @@
 
 
 
+@media (max-width: 900px) {
 
-
-
-@media (max-width: 480px) {
   .navbar {
     margin: 0;          
-    padding: 0 50px;
+    padding: 0 80px;
     gap: 0.5rem;
     justify-content: space-around;
     white-space: nowrap;
@@ -63,4 +61,28 @@
     line-height: 1;
   }
 
+
 }
+
+
+@media (min-width: 901px) and (max-width: 1300px) {
+
+  .navbar {
+    margin: 0 60px;          
+    padding: 0 80px;
+    gap: 0.5rem;
+    justify-content: space-evenly;
+    white-space: nowrap;
+  }
+
+  
+  .navbar::-webkit-scrollbar { display: none; }
+  .navbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  .nav-link {
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    padding: 10px 8px;     
+    line-height: 1;
+  }
+} 

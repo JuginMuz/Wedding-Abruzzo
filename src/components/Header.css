@@ -123,3 +123,43 @@
     margin: 0 auto;
   }
 }
+
+@media (min-width: 481px) and (max-width: 900px) {
+
+  .wedding-header {
+    padding: 120px 35px 30px;  /* shrink top/bottom spacing */
+    background-size: contain;    /* avoid stretching */
+  }
+
+  .header-title {
+    font-size: 2.2rem;           /* reduce title size */
+  }
+
+  .header-details {
+    gap: 0;
+    margin-bottom: 20px;
+  }
+
+  .detail-left,
+  .detail-right {
+    font-size: 1.2rem;         /* smaller text */
+    margin-top: 10px;
+  }
+
+  .detail-divider {
+    width: 0.5px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+
+  .wedding-header {
+    padding: 200px 35px 30px;  /* shrink top/bottom spacing */
+    background-size: contain;    /* avoid stretching */
+  }
+
+  .header-title {
+    font-size: 3.6rem;           /* reduce title size */
+  }
+}

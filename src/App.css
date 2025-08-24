@@ -9,7 +9,7 @@ body {
 /* Language Buttons */
 
 .language-switcher {
-  position: fixed;
+  position: absolute;
   top: 16px;
   right: 16px;
   display: flex;
@@ -42,7 +42,7 @@ body {
 
 .content-sections {
   justify-items: center;
-  padding: 0px 0px;
+  padding: 0px 400px;
   margin-bottom: 200px;
   text-align: justify;
   line-height: 1.5;
@@ -262,10 +262,6 @@ h3{
     padding-top: 1.5rem;
   }
 
-  .language-switcher {
-    position: absolute;
-  }
-
   /* Images scale down */
   .home-section img,
   .ourday-section img,
@@ -392,7 +388,147 @@ h3{
 
 
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 900px) {
   
-  
+  /* Body & general spacing */
+  body {
+    font-size: 0.95rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .content-sections {
+    padding: 0px 50px;
+    margin-bottom: 100px;
+    line-height: 1.5;
+    height: auto;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    padding-top: 1.5rem;
+  }
+
+  .home-section img,
+  .ourday-section img,
+  .travel-section img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+  }
+
+  /* RSVP form fits small screens */
+  .rsvp-form {
+    min-width: unset;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;        /* left gutter matches the text */
+    text-align: left;
+  }
+
+
+  .rsvp-form p {
+    margin-bottom: 1rem;
+  }
+    
+  .rsvp-form h3 {
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .rsvp-form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+  }
+
+  .guest-names-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem; /* horizontal spacing between columns */
+    row-gap: 0;
+  }
+
+  .guest-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rsvp-form input[type="text"],
+  .rsvp-form input[type="email"],
+  .rsvp-form select,
+  .rsvp-form textarea {
+    width: 95%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+
+  .guest-names-grid { grid-template-columns: 1fr; } /* optional: single column on phones */
+
+  .rsvp-form input::placeholder,
+  .rsvp-form textarea::placeholder {
+    font-style: italic;
+    color: #888; /* optional: lighter gray tone */
+  }
+
+  .rsvp-form input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+
+  .rsvp-form button {
+    background-color:  #8D493A;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-family: 'EB Garamont';
+    border: 1px solid  #8D493A;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    margin: 2rem auto;
+  }
+
+  .rsvp-form button:hover {
+    background-color: transparent;
+    border: 1px solid  #8D493A;
+    color:  #8D493A;
+  }
+
+  .rsvp-form .thank-you {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .attending-section,
+  .not-attending-section {
+    margin-top: 1.5rem;
+  }
+}
+
+
+@media (min-width: 901px) and (max-width: 1300px) {
+
+  /* Body & general spacing */
+  body {
+    font-size: 0.95rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .content-sections {
+    margin-bottom: 100px;
+    line-height: 1.5;
+    height: auto;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    padding-top: 2rem;
+  }
+
 }
