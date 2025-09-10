@@ -90,9 +90,13 @@ function App() {
               {t('gifts.p3')}<br></br><br></br><br></br>
 
               {t('gifts.accountHolder')}<br></br>
+              {t('gifts.description')}<br></br><br></br>
+
               {t('gifts.iban')}<br></br>
-              {t('gifts.bic')}<br></br>
-              {t('gifts.description')}
+              {t('gifts.bic')}<br></br><br></br>
+
+              {t('gifts.sort')}<br></br>
+              {t('gifts.account')}<br></br>
             </section>
 
             <section className="qa-section" style={{ display: section === "qa" ? "block" : "none" }}>

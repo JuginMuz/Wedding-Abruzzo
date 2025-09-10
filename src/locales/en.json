@@ -35,10 +35,12 @@
     "p1": "We are deeply grateful for your presence at our wedding, it is truly the most meaningful gift.",
     "p2": "As we live in London and are celebrating in Italy, transporting physical gifts would be a challenge.",
     "p3": "If you would like to offer us a gift, we would be so thankful for a contribution to our first home fund.",
-    "accountHolder": "ACCOUNT HOLDER:",
-    "iban": "IBAN:",
-    "bic": "BIC/SWIFT:",
-    "description": "DESCRIPTION:"
+    "accountHolder": "ACCOUNT HOLDER: Alexandra Leone & Jugin Muzhaqi",
+    "description": "DESCRIPTION: Wedding Gift",
+    "iban": "IBAN: GB88MONZ04000501523712",
+    "bic": "BIC/SWIFT: MONZGB2L",
+    "sort": "SORT CODE: 04-00-05",  
+    "account": "ACCOUNT NUMBER: 01523712"
   },
   "qa": {
     "q1": { "title": "By when do I need to confirm my attendance?", "body": "Please confirm your attendance via the RSVP form by August 1, 2026." },
