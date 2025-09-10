@@ -35,10 +35,12 @@
     "p1": "Siamo profondamente grati per la vostra presenza al nostro matrimonio, è davvero il dono più significativo.",
     "p2": "Vivendo a Londra e festeggiando in Italia, sarebbe difficile trasportare regali materiali.",
     "p3": "Se desiderate farci un dono, vi saremmo molto grati per un contributo al fondo per la nostra prima casa.",
-    "accountHolder": "INTESTATARIO:",
-    "iban": "IBAN:",
-    "bic": "BIC/SWIFT:",
-    "description": "CAUSALE:"
+    "accountHolder": "INTESTATARIO: Alexandra Leone & Jugin Muzhaqi",
+    "description": "CAUSALE: Wedding Gift",
+    "iban": "IBAN: GB88MONZ04000501523712",
+    "bic": "BIC/SWIFT: MONZGB2L",
+    "sort": "SORT CODE: 04-00-05",  
+    "account": "ACCOUNT NUMBER: 01523712"
   },
   "qa": {
     "q1": { "title": "Entro quando devo confermare la presenza?", "body": "Vi preghiamo di confermare la vostra presenza tramite il modulo di RSVP entro il 1° agosto 2026." },
